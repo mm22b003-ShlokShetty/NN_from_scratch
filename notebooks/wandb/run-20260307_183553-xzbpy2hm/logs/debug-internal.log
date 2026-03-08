@@ -1,0 +1,12 @@
+{"time":"2026-03-07T18:35:57.6054912+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T18:35:58.5760567+05:30","level":"INFO","msg":"stream: created new stream","id":"xzbpy2hm"}
+{"time":"2026-03-07T18:35:58.5765875+05:30","level":"INFO","msg":"handler: started","stream_id":"xzbpy2hm"}
+{"time":"2026-03-07T18:35:58.5846578+05:30","level":"INFO","msg":"stream: started","id":"xzbpy2hm"}
+{"time":"2026-03-07T18:35:58.5840905+05:30","level":"INFO","msg":"sender: started","stream_id":"xzbpy2hm"}
+{"time":"2026-03-07T18:35:58.5846578+05:30","level":"INFO","msg":"writer: started","stream_id":"xzbpy2hm"}
+{"time":"2026-03-07T18:36:15.9302236+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T18:36:16.4874729+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T18:36:16.5387558+05:30","level":"INFO","msg":"stream: closing","id":"xzbpy2hm"}
+{"time":"2026-03-07T18:36:16.5401406+05:30","level":"INFO","msg":"handler: closed","stream_id":"xzbpy2hm"}
+{"time":"2026-03-07T18:36:16.5406493+05:30","level":"INFO","msg":"sender: closed","stream_id":"xzbpy2hm"}
+{"time":"2026-03-07T18:36:16.5406493+05:30","level":"INFO","msg":"stream: closed","id":"xzbpy2hm"}

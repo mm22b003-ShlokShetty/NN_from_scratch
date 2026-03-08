@@ -1,0 +1,12 @@
+{"time":"2026-03-07T19:42:57.8325796+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:42:58.6161368+05:30","level":"INFO","msg":"stream: created new stream","id":"klsh5ari"}
+{"time":"2026-03-07T19:42:58.6161368+05:30","level":"INFO","msg":"handler: started","stream_id":"klsh5ari"}
+{"time":"2026-03-07T19:42:58.6201149+05:30","level":"INFO","msg":"stream: started","id":"klsh5ari"}
+{"time":"2026-03-07T19:42:58.6208209+05:30","level":"INFO","msg":"writer: started","stream_id":"klsh5ari"}
+{"time":"2026-03-07T19:42:58.6208209+05:30","level":"INFO","msg":"sender: started","stream_id":"klsh5ari"}
+{"time":"2026-03-07T19:43:09.6690495+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:43:10.1379069+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T19:43:10.1537227+05:30","level":"INFO","msg":"stream: closing","id":"klsh5ari"}
+{"time":"2026-03-07T19:43:10.1537227+05:30","level":"INFO","msg":"handler: closed","stream_id":"klsh5ari"}
+{"time":"2026-03-07T19:43:10.1554287+05:30","level":"INFO","msg":"sender: closed","stream_id":"klsh5ari"}
+{"time":"2026-03-07T19:43:10.1554287+05:30","level":"INFO","msg":"stream: closed","id":"klsh5ari"}

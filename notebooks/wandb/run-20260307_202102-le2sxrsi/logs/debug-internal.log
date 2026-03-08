@@ -1,0 +1,12 @@
+{"time":"2026-03-07T20:21:04.6854181+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T20:21:05.4463717+05:30","level":"INFO","msg":"stream: created new stream","id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:05.4469489+05:30","level":"INFO","msg":"handler: started","stream_id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:05.4528333+05:30","level":"INFO","msg":"stream: started","id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:05.453479+05:30","level":"INFO","msg":"writer: started","stream_id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:05.453479+05:30","level":"INFO","msg":"sender: started","stream_id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:17.6659553+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T20:21:18.1404847+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T20:21:18.1579899+05:30","level":"INFO","msg":"stream: closing","id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:18.1579899+05:30","level":"INFO","msg":"handler: closed","stream_id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:18.1638568+05:30","level":"INFO","msg":"sender: closed","stream_id":"le2sxrsi"}
+{"time":"2026-03-07T20:21:18.1645547+05:30","level":"INFO","msg":"stream: closed","id":"le2sxrsi"}

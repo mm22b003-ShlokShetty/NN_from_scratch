@@ -1,0 +1,12 @@
+{"time":"2026-03-07T19:10:15.1662986+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:10:16.2691422+05:30","level":"INFO","msg":"stream: created new stream","id":"emgmpeao"}
+{"time":"2026-03-07T19:10:16.2691422+05:30","level":"INFO","msg":"handler: started","stream_id":"emgmpeao"}
+{"time":"2026-03-07T19:10:16.2725335+05:30","level":"INFO","msg":"stream: started","id":"emgmpeao"}
+{"time":"2026-03-07T19:10:16.273307+05:30","level":"INFO","msg":"sender: started","stream_id":"emgmpeao"}
+{"time":"2026-03-07T19:10:16.273307+05:30","level":"INFO","msg":"writer: started","stream_id":"emgmpeao"}
+{"time":"2026-03-07T19:10:29.7200176+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:10:30.3302671+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T19:10:30.346742+05:30","level":"INFO","msg":"stream: closing","id":"emgmpeao"}
+{"time":"2026-03-07T19:10:30.346742+05:30","level":"INFO","msg":"handler: closed","stream_id":"emgmpeao"}
+{"time":"2026-03-07T19:10:30.3522992+05:30","level":"INFO","msg":"sender: closed","stream_id":"emgmpeao"}
+{"time":"2026-03-07T19:10:30.3522992+05:30","level":"INFO","msg":"stream: closed","id":"emgmpeao"}

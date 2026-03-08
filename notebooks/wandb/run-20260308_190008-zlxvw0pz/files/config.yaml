@@ -1,0 +1,130 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            of77hqsy6qooge5m6a32aw7qneq0od9e:
+                args:
+                    - --dataset
+                    - mnist
+                    - --epochs
+                    - "10"
+                    - --batch_size
+                    - "64"
+                    - --optimizer
+                    - rmsprop
+                    - --learning_rate
+                    - "0.1"
+                    - --num_layers
+                    - "3"
+                    - --hidden_size
+                    - "128"
+                    - "128"
+                    - "128"
+                    - --activation
+                    - relu
+                    - --weight_init
+                    - xavier
+                    - --wandb_project
+                    - DA6401_Assignment1
+                codePath: ..\src\train.py
+                codePathLocal: ..\src\train.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "511061090304"
+                        used: "191170162688"
+                email: shlokshetty2304@gmail.com
+                executable: C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\python.exe
+                host: DESKTOP-8EO8BSU
+                memory:
+                    total: "8316026880"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\src\train.py
+                python: CPython 3.13.7
+                root: C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\notebooks
+                startedAt: "2026-03-08T13:30:08.342441Z"
+                writerId: of77hqsy6qooge5m6a32aw7qneq0od9e
+        m: []
+        python_version: 3.13.7
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 105
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.7
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+        visualize:
+            confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+activation:
+    value: relu
+batch_size:
+    value: 64
+dataset:
+    value: mnist
+epochs:
+    value: 10
+hidden_size:
+    value:
+        - 128
+        - 128
+        - 128
+learning_rate:
+    value: 0.1
+loss:
+    value: cross_entropy
+num_layers:
+    value: 3
+optimizer:
+    value: rmsprop
+wandb_project:
+    value: DA6401_Assignment1
+weight_decay:
+    value: 0
+weight_init:
+    value: xavier

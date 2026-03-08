@@ -1,0 +1,49 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.7",
+  "startedAt":  "2026-03-07T17:27:03.220152Z",
+  "args":  [
+    "--dataset",
+    "mnist",
+    "--epochs",
+    "10",
+    "--batch_size",
+    "64",
+    "--optimizer",
+    "rmsprop",
+    "--learning_rate",
+    "0.001",
+    "--num_layers",
+    "4",
+    "--hidden_size",
+    "128",
+    "128",
+    "128",
+    "128",
+    "--activation",
+    "relu",
+    "--weight_init",
+    "xavier",
+    "--wandb_project",
+    "DA6401_Assignment1"
+  ],
+  "program":  "C:\\Users\\Shlok Shetty\\Desktop\\DA6401_assignment1\\src\\train.py",
+  "codePath":  "..\\src\\train.py",
+  "codePathLocal":  "..\\src\\train.py",
+  "email":  "shlokshetty2304@gmail.com",
+  "root":  "C:\\Users\\Shlok Shetty\\Desktop\\DA6401_assignment1\\notebooks",
+  "host":  "DESKTOP-8EO8BSU",
+  "executable":  "C:\\Users\\Shlok Shetty\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "511061090304",
+      "used":  "191441133568"
+    }
+  },
+  "memory":  {
+    "total":  "8316026880"
+  },
+  "writerId":  "lzbi66lyasb5zvc4qfa5x7nmg8aof1ih"
+}

@@ -1,0 +1,13 @@
+Epoch 1/5 - Test Accuracy: 0.5028
+Epoch 2/5 - Test Accuracy: 0.6748
+Epoch 3/5 - Test Accuracy: 0.7474
+Epoch 4/5 - Test Accuracy: 0.7894
+Epoch 5/5 - Test Accuracy: 0.8151
+Traceback (most recent call last):
+  File [35m"C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\src\train.py"[0m, line [35m165[0m, in [35m<module>[0m
+    [31mtrain[0m[1;31m(args)[0m
+    [31m~~~~~[0m[1;31m^^^^^^[0m
+  File [35m"C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\src\train.py"[0m, line [35m155[0m, in [35mtrain[0m
+    with [31mopen[0m[1;31m("models/best_config.json", "w")[0m as f:
+         [31m~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mFileNotFoundError[0m: [35m[Errno 2] No such file or directory: 'models/best_config.json'[0m

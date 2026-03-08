@@ -1,0 +1,32 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.7",
+  "startedAt":  "2026-03-07T15:41:04.401067Z",
+  "args":  [
+    "--dataset",
+    "mnist",
+    "--epochs",
+    "2",
+    "--optimizer",
+    "sgd"
+  ],
+  "program":  "C:\\Users\\Shlok Shetty\\Desktop\\DA6401_assignment1\\src\\train.py",
+  "codePath":  "..\\src\\train.py",
+  "codePathLocal":  "..\\src\\train.py",
+  "email":  "shlokshetty2304@gmail.com",
+  "root":  "C:\\Users\\Shlok Shetty\\Desktop\\DA6401_assignment1\\notebooks",
+  "host":  "DESKTOP-8EO8BSU",
+  "executable":  "C:\\Users\\Shlok Shetty\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "511061090304",
+      "used":  "192258498560"
+    }
+  },
+  "memory":  {
+    "total":  "8316026880"
+  },
+  "writerId":  "nhd72am23mr9secp76apwvmhgmp24ocy"
+}

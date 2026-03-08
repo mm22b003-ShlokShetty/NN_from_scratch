@@ -1,0 +1,14 @@
+{"time":"2026-03-07T19:18:12.3791528+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:18:14.8451901+05:30","level":"INFO","msg":"stream: created new stream","id":"0tksga4q"}
+{"time":"2026-03-07T19:18:14.8458453+05:30","level":"INFO","msg":"handler: started","stream_id":"0tksga4q"}
+{"time":"2026-03-07T19:18:14.850064+05:30","level":"INFO","msg":"stream: started","id":"0tksga4q"}
+{"time":"2026-03-07T19:18:14.850064+05:30","level":"INFO","msg":"writer: started","stream_id":"0tksga4q"}
+{"time":"2026-03-07T19:18:14.850064+05:30","level":"INFO","msg":"sender: started","stream_id":"0tksga4q"}
+{"time":"2026-03-07T19:18:48.8905617+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp [2402:3a80:4283:72a5:2925:3cd4:98d6:152f]:63946->[64:ff9b::23ba:e431]:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2026-03-07T19:18:48.8912778+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp [2402:3a80:4283:72a5:2925:3cd4:98d6:152f]:63946->[64:ff9b::23ba:e431]:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2026-03-07T19:19:06.7763887+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:19:07.5659546+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T19:19:07.5861176+05:30","level":"INFO","msg":"stream: closing","id":"0tksga4q"}
+{"time":"2026-03-07T19:19:07.5861176+05:30","level":"INFO","msg":"handler: closed","stream_id":"0tksga4q"}
+{"time":"2026-03-07T19:19:07.5872696+05:30","level":"INFO","msg":"sender: closed","stream_id":"0tksga4q"}
+{"time":"2026-03-07T19:19:07.5879618+05:30","level":"INFO","msg":"stream: closed","id":"0tksga4q"}

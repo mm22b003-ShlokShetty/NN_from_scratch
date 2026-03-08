@@ -1,0 +1,12 @@
+Epoch 1/10 - Test Accuracy: 0.9545
+Epoch 2/10 - Test Accuracy: 0.9707
+Epoch 3/10 - Test Accuracy: 0.9734
+Epoch 4/10 - Test Accuracy: 0.9747
+Epoch 5/10 - Test Accuracy: 0.9773
+Epoch 6/10 - Test Accuracy: 0.9764
+Epoch 7/10 - Test Accuracy: 0.9783
+Epoch 8/10 - Test Accuracy: 0.9759
+Epoch 9/10 - Test Accuracy: 0.9776
+Epoch 10/10 - Test Accuracy: 0.9767
+[34m[1mwandb[0m: Network error (ConnectionError), entering retry loop.
+Training complete. Best Accuracy: 0.9783

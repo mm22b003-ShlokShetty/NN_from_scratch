@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File [35m"C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\src\train.py"[0m, line [35m215[0m, in [35m<module>[0m
+    [31mtrain[0m[1;31m(args)[0m
+    [31m~~~~~[0m[1;31m^^^^^^[0m
+  File [35m"C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\src\train.py"[0m, line [35m155[0m, in [35mtrain[0m
+    grad_norm = np.linalg.norm([1;31mlayer.dW[0m)
+                               [1;31m^^^^^^^^[0m
+[1;35mAttributeError[0m: [35m'NeuralLayer' object has no attribute 'dW'. Did you mean: 'W'?[0m

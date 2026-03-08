@@ -1,0 +1,6 @@
+Epoch 1/5 - Test Accuracy: 0.9645
+Epoch 2/5 - Test Accuracy: 0.9726
+Epoch 3/5 - Test Accuracy: 0.9749
+Epoch 4/5 - Test Accuracy: 0.9761
+Epoch 5/5 - Test Accuracy: 0.9763
+Training complete. Best Accuracy: 0.9763

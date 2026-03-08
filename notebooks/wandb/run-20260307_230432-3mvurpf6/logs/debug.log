@@ -1,0 +1,207 @@
+2026-03-07 23:04:32,793 INFO    MainThread:5568 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-03-07 23:04:32,793 INFO    MainThread:5568 [wandb_setup.py:_flush():81] Configure stats pid to 5568
+2026-03-07 23:04:32,793 INFO    MainThread:5568 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-07 23:04:32,794 INFO    MainThread:5568 [wandb_init.py:setup_run_log_directory():717] Logging user logs to C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\notebooks\wandb\run-20260307_230432-3mvurpf6\logs\debug.log
+2026-03-07 23:04:32,794 INFO    MainThread:5568 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to C:\Users\Shlok Shetty\Desktop\DA6401_assignment1\notebooks\wandb\run-20260307_230432-3mvurpf6\logs\debug-internal.log
+2026-03-07 23:04:32,795 INFO    MainThread:5568 [wandb_init.py:init():844] calling init triggers
+2026-03-07 23:04:32,795 INFO    MainThread:5568 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'dataset': 'mnist', 'epochs': 10, 'batch_size': 64, 'loss': 'cross_entropy', 'optimizer': 'rmsprop', 'learning_rate': 0.001, 'weight_decay': 0.0, 'num_layers': 4, 'hidden_size': [128, 128, 128, 128], 'activation': 'relu', 'weight_init': 'xavier', 'wandb_project': 'DA6401_Assignment1', '_wandb': {}}
+2026-03-07 23:04:32,795 INFO    MainThread:5568 [wandb_init.py:init():892] starting backend
+2026-03-07 23:04:34,823 INFO    MainThread:5568 [wandb_init.py:init():895] sending inform_init request
+2026-03-07 23:04:35,286 INFO    MainThread:5568 [wandb_init.py:init():903] backend started and connected
+2026-03-07 23:04:35,390 INFO    MainThread:5568 [wandb_init.py:init():973] updated telemetry
+2026-03-07 23:04:35,394 INFO    MainThread:5568 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-07 23:04:46,974 INFO    Thread-5 (wrapped_target):5568 [retry.py:__call__():167] [no run ID] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 70, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+2026-03-07 23:05:06,890 INFO    MainThread:5568 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-07 23:05:07,906 INFO    MainThread:5568 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-07 23:05:07,907 INFO    MainThread:5568 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-07 23:05:07,907 INFO    MainThread:5568 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-07 23:05:07,908 INFO    MainThread:5568 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-07 23:05:07,921 INFO    MainThread:5568 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-08 04:40:11,301 INFO    MainThread:5568 [wandb_run.py:_config_callback():1403] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2026-03-08 04:40:14,854 INFO    MainThread:5568 [retry.py:__call__():167] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000196167B8050>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000196167B8050>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 70, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Shlok Shetty\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000196167B8050>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2026-03-08 18:59:34,959 INFO    MainThread:5568 [wandb_run.py:_finish():2291] finishing run shlokshetty2304-iitm-ac-in/DA6401_Assignment1/3mvurpf6
+2026-03-08 18:59:34,962 INFO    MainThread:5568 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-08 18:59:34,965 INFO    MainThread:5568 [wandb_run.py:_restore():2472] restore
+2026-03-08 18:59:34,965 INFO    MainThread:5568 [wandb_run.py:_restore():2478] restore done
+2026-03-08 18:59:41,594 INFO    MainThread:5568 [wandb_run.py:_footer_sync_info():3868] logging synced files
